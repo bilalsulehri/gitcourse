@@ -1,0 +1,9 @@
+After installing from git-scm
+
+git init 
+( command to initialize repository, whereever you are standing)
+
+git status 
+(to check status)
+
+
