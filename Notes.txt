@@ -6,4 +6,7 @@ git init
 git status 
 (to check status)
 
+git add fileFilter
+
+
 
