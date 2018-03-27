@@ -8,5 +8,14 @@ git status
 
 git add fileFilter
 
+git commit -a
+
+git reset --hard version no.
+to reset hard to previous version
+
+git reset version
+(without hard keyword, it's log is removed, file remains on disk, which means, file appears as uncommitted now)
+
+
 
 
