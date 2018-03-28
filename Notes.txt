@@ -31,3 +31,7 @@ git checout branchName
 
 git branch -d branchname
 (delete branch)
+
+
+to clone repository from git hub , copy it's url and use following command
+git clone repoPath
