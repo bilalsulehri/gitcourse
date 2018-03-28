@@ -47,3 +47,23 @@ To get changes from server use this :
 
 git pull
 
+contributing
+============
+
+1. First you fork the repository into your account (forking makes another copy)
+2. clone it 
+3. When you commit, original file will not be affected
+
+
+git settings
+============
+
+$ git config user.email "ba_aptech@hotmail.com"
+$ git config user.name "bilalaptech"
+add global flag for global settings
+
+$ git config --global user.email "ba_aptech@hotmail.com"
+$ git config --global user.name "bilalaptech"
+
+
+this is odd
