@@ -42,3 +42,8 @@ git remote add origin https://github.com/bilalsulehri/gitcourse.git
 
 to push changes, use this
 git push origin master
+
+To get changes from server use this :
+
+git pull
+
