@@ -19,3 +19,15 @@ git reset version
 
 
 
+git checkout -b branchName
+( to create new branch)
+
+git checkout master
+(to switch to master)
+ 
+git checout branchName
+(to switch to  branchname)
+
+
+git branch -d branchname
+(delete branch)
