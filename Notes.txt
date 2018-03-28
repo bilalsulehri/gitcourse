@@ -35,3 +35,10 @@ git branch -d branchname
 
 to clone repository from git hub , copy it's url and use following command
 git clone repoPath
+
+
+To push your repository to remote git hub use following command 
+git remote add origin https://github.com/bilalsulehri/gitcourse.git
+
+to push changes, use this
+git push origin master
