@@ -1,4 +1,4 @@
-After installing from git-scm
+itAfter installing from git-scm
 
 git init 
 ( command to initialize repository, whereever you are standing)
@@ -33,6 +33,8 @@ git branch -d branchname
 (delete branch)
 
 
+to push branch to remote repoPath
+git push origin branchna
 to clone repository from git hub , copy it's url and use following command
 git clone repoPath
 
@@ -66,4 +68,32 @@ $ git config --global user.email "ba_aptech@hotmail.com"
 $ git config --global user.name "bilalaptech"
 
 
-this is odd
+Misc
+===
+
+To see the information about remote origin, use following commands
+git remote
+git remote show origin
+
+
+
+after forking, you can link your forked cloned copy with the master with this
+git remote add upstream https://github.com/bilalsulehri/gitcourse.git
+
+
+
+
+
+
+
+
+
+=============Notes next version ====================
+
+Difference between svn & git is that svn is central repository system and git is distributed, git has local copy too, but svn don't
+
+Difference between Git hub and git
+Git HUb is a central repository system (it's kind of social network for developers). Git on the other hand is a local repository tool, which allows to pull and push from and to Git hub
+
+
+
