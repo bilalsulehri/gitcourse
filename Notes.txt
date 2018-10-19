@@ -95,5 +95,9 @@ Difference between svn & git is that svn is central repository system and git is
 Difference between Git hub and git
 Git HUb is a central repository system (it's kind of social network for developers). Git on the other hand is a local repository tool, which allows to pull and push from and to Git hub
 
+case : A repository exists, you are linking it with local repo
+1. git init
+2. git remote add origin "http://...."
+3. git pull origin master
 
 
