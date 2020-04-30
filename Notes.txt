@@ -18,9 +18,11 @@ git reset version
 
 
 
+git branch branchName
+create new branch
 
 git checkout -b branchName
-( to create new branch)
+( to switch to new branch)
 
 git checkout master
 (to switch to master)
