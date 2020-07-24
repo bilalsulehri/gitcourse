@@ -35,6 +35,14 @@ git branch -d branchname
 (delete branch)
 
 
+switch to remote branch
+
+example:
+$ git checkout --track origin/newsletter
+Branch newsletter set up to track remote branch newsletter from origin.
+Switched to a new branch 'newsletter'
+
+
 to push branch to remote repoPath
 git push origin branchna
 to clone repository from git hub , copy it's url and use following command
