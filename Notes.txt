@@ -35,7 +35,7 @@ git branch -d branchname
 (delete branch)
 
 
-switch to remote branch (this is staging change)
+switch to remote branch (this is staging change, this is my feature change)
 
 example:
 $ git checkout --track origin/newsletter
