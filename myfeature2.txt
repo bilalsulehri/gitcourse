@@ -1,0 +1,3 @@
+this is my feature 2 text file
+
+some more text

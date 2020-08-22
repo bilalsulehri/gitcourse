@@ -35,7 +35,7 @@ git branch -d branchname
 (delete branch)
 
 
-switch to remote branch
+switch to remote branch (this is staging change, this is my feature change)
 
 example:
 $ git checkout --track origin/newsletter
@@ -110,4 +110,15 @@ case : A repository exists, you are linking it with local repo
 2. git remote add origin "http://...."
 3. git pull origin master
 
+
+
+
+-------------------------
+
+this is staging text
+
+
+=======
+----------------------
+This text is part of develop branch
 
