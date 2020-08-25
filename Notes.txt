@@ -122,3 +122,34 @@ this is staging text
 ----------------------
 This text is part of develop branch
 
+git diff
+=======
+
+this shows you difference between local and remote
+
+git diff --staging
+=================
+
+this shows difference between staged and last committed work
+
+remove files from staging
+===========================
+
+git rm
+
+
+
+
+
+
+
+
+Undoing Things
+=================
+
+if you forgot to add something in commit, make the change and then commit with -amend flag, it'll be single commit, not multiple (to staging)
+
+to unstage something
+git reset head <filename>
+
+
