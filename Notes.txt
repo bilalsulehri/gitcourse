@@ -21,6 +21,10 @@ git reset version
 git branch branchName
 create new branch
 
+create new branch (sub_branch) out of another branch (branch1)
+git checkout -b sub_branch branch1
+
+
 git checkout -b branchName
 ( to switch to new branch)
 
@@ -33,6 +37,7 @@ git checout branchName
 
 git branch -d branchname
 (delete branch)
+
 
 
 switch to remote branch (this is staging change, this is my feature change)
@@ -152,4 +157,22 @@ if you forgot to add something in commit, make the change and then commit with -
 to unstage something
 git reset head <filename>
 
+
+
+cherry-pick multiple commits from another branch and combine them to single commit
+==================================================================================
+case: pick two commits from feature branch and merge to develop
+
+git cherry-pick hash1
+(if there are conflicts resolve them and run git cherry-pick --continue)
+
+git cherry-pick hash2
+(do same for resolving conflicts)
+
+don't push changes to branch yet
+run git rebase -i HEAD~2
+keep first commit with pick
+and replace other picks with s
+
+after that push your changes to branch
 
