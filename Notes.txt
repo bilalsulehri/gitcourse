@@ -17,6 +17,18 @@ git reset version
 (without hard keyword, it's log is removed, file remains on disk, which means, file appears as uncommitted now)
 
 
+creating new remote branch from command line
+===================
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/bilalsulehri/test-git-repo.git
+git push -u origin main
+
+
+=============
 
 git branch branchName
 create new branch
